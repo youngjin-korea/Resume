@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.univname:hover {
+  color: #263d7f;
+}
+.header-top {
+  padding: 10px 50px;
+  background-color: #ff5d00;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.header-bottom {
+  background-color: #363636;
+  padding: 25px;
+}
+.nav-option {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 50px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: large;
+}
+.resume:hover {
+  color: #ff5d00;
+}
+.popole:hover {
+  color: #ff5d00;
+}
+.cert:hover {
+  color: #ff5d00;
+}
+.test {
+  height: 500px;
+  background-color: red;
+}
+.content {
+  background-color: #363636;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.item {
+  width: 383px;
+  height: 383px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #263d7f;
+  text-align: center;
+  border-radius: 15px;
+  background-image: linear-gradient(#263d7f, skyblue);
+}
+.item:hover {
+  opacity: 0.5;
+}
+.item-a {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+h3 {
+  margin: 10px;
+}
+.img-border {
+  border-radius: 10px;
+  overflow: hidden;
+}
+p {
+  margin: 10px;
+}
+/* 자격증 페이지 */
+.cer-main {
+  height: 100vh;
+  padding: 30px;
+  background-image: linear-gradient(#263d7f, skyblue);
+}
+.cer-item {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: gray;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.cer-item:hover {
+  opacity: 0.85;
+}
+.cer-content {
+  line-height: 1.5;
+}
+/* 이력서 페이지 */
+.resume-main {
+  padding: 20px;
+  height: 100vh;
+  background-image: linear-gradient(#263d7f, skyblue);
+}
+.resume-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("김영진님12.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
